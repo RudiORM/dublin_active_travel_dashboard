@@ -28,10 +28,6 @@ The Dublin Active Travel Dashboard is a comprehensive visualization platform tha
    * Private vehicle usage
 * Outputs census_data_total.geojson for visualization
 
-  
-2 - Google EIE data link -  Dublin - Summary - Google Environmental Insights Explorer - Make Informed Decisions
-3 - Eco Counter API on Dublinked  - Pedestrian and Cycle counter API for Dublin Region - Dataset - data.smartdublin.ie
-
 ### 2. Google Modal Split Dataset
 [Dublin - Summary - Google Environmental Insights Explorer - Make Informed Decisions](https://insights.sustainability.google/places/ChIJL6wn6oAOZ0gRoHExl6nHAAo)
 * Generated through _Calculations/Census_calculations/google_calculations
