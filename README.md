@@ -18,7 +18,8 @@ The Dublin Active Travel Dashboard is a comprehensive visualization platform tha
 ## Data Sources <a name="data-sources"></a>
 
 ### 1. Census Travel Analysis Dataset
-Generated through _Calculations/Census_calculations/census calculations.ipynb_ which processes:
+[CSO Census data Commuting to Work Census of Population 2022 Profile 7 - Employment, Occupations and Commuting - Central Statistics Office](https://www.cso.ie/en/releasesandpublications/ep/p-cpp7/censusofpopulation2022profile7-employmentoccupationsandcommuting/commutingtowork/#:~:text=Commuting%20Trends%20Over%20Time,%2C%20up%208%25%20since%202016)
+* Generated through _Calculations/Census_calculations/census calculations.ipynb_ which processes:
 * 2016-2022 Small Area census statistics 
 * Geographic boundaries for Small Areas and Electoral Divisions
 * Comparative analysis of transport modes including:
@@ -27,8 +28,13 @@ Generated through _Calculations/Census_calculations/census calculations.ipynb_ w
    * Private vehicle usage
 * Outputs census_data_total.geojson for visualization
 
+  
+2 - Google EIE data link -  Dublin - Summary - Google Environmental Insights Explorer - Make Informed Decisions
+3 - Eco Counter API on Dublinked  - Pedestrian and Cycle counter API for Dublin Region - Dataset - data.smartdublin.ie
+
 ### 2. Google Modal Split Dataset
-Generated through _Calculations/Census_calculations/google_calculations
+[Dublin - Summary - Google Environmental Insights Explorer - Make Informed Decisions](https://insights.sustainability.google/places/ChIJL6wn6oAOZ0gRoHExl6nHAAo)
+* Generated through _Calculations/Census_calculations/google_calculations
 .ipynb_ which processes:
 * Constituency-level transportation data
 * Mode split calculations across Dublin
@@ -36,6 +42,7 @@ Generated through _Calculations/Census_calculations/google_calculations
 * Outputs districts.geojson with consolidated metrics
 
 ### 3. Eco-Visio Counter Data
+[Pedestrian and Cycle counter API for Dublin Region - Dataset - data.smartdublin.ie](https://data.smartdublin.ie/dataset/pedestrian-and-cycle-counter-api-for-dublin-region)
 * Real-time pedestrian and cycling counter information
 * Accessed via Eco-Visio API
 * Provides multiple temporal views:
