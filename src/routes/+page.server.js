@@ -8,7 +8,7 @@ export async function load({params}){
     headers: {accept: 'application/json', 'X-API-KEY':process.env.ECO_COUNTER_API}
   };
 
-  const dailyTraffic = fetch('https://api.eco-counter.com/api/v2/statistical/adt/by/site?dateRange=currentMonth&groupBy=siteAndTravelMode&travelModes=pedestrian&travelModes=bike', options)
+  const dailyTraffic = fetch('https://api.eco-counter.com/api/v2/statistical/adt/by/site?dateRange=lastWeek&groupBy=siteAndTravelMode&travelModes=pedestrian&travelModes=bike', options)
     .then(response => response.json())
 
   const fetchSites = 
